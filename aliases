@@ -1,0 +1,5 @@
+alias m="make"
+alias k="kubectl"
+
+# local aliases
+[[ -f ~/.aliases.local ]] && source ~/.aliases.local
