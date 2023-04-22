@@ -85,6 +85,9 @@ plugins=(
   safe-paste
 )
 
+# Enable Homebrew completions
+hash brew &&FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -121,7 +124,7 @@ source $ZSH/oh-my-zsh.sh
 [[ -f $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]] && source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Enable asdf
-$(brew --prefix asdf)/libexec/asdf.sh
+. $(brew --prefix asdf)/libexec/asdf.sh
 
 # aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
