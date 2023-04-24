@@ -126,5 +126,11 @@ source $ZSH/oh-my-zsh.sh
 # Enable asdf
 . $(brew --prefix asdf)/libexec/asdf.sh
 
+# local
+[[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
+
 # aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
+
+# Force no pager with AWS CLI
+export AWS_PAGER=""
