@@ -1,0 +1,9 @@
+function update-all() {
+  if hash tldr; then
+    tldr --update
+  fi
+  if hash brew; then
+    brew update && brew upgrade
+  fi
+  omz update
+}
