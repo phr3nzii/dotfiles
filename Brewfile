@@ -13,12 +13,15 @@ brew "git"
 brew "jq"
 brew "rcm"
 brew "tldr"
+brew "watch"
 brew "yq"
 
 # AWS
+tap "aws/tap"
 brew "aws-iam-authenticator"
 brew "awscli"
 cask "aws-vault"
+brew "ec2-instance-selector"
 cask "session-manager-plugin"
 
 # Kubernetes
