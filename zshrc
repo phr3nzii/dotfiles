@@ -81,6 +81,7 @@ source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme
 plugins=(
   autojump
   aws
+  colored-man-pages
   git
   safe-paste
 )
