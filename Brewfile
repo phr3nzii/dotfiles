@@ -13,6 +13,7 @@ brew "git"
 brew "jq"
 brew "rcm"
 brew "tldr"
+brew "tree"
 brew "watch"
 brew "yq"
 
