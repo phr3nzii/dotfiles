@@ -83,6 +83,7 @@ plugins=(
   aws
   colored-man-pages
   git
+  httpie
   safe-paste
 )
 
