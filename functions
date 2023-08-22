@@ -3,7 +3,7 @@ function update-all() {
     tldr --update
   fi
   if hash brew; then
-    brew update && brew upgrade
+    brew update && brew upgrade && brew upgrade --cask --greedy && brew cleanup
   fi
   omz update
 }
