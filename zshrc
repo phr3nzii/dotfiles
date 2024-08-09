@@ -126,7 +126,7 @@ source $ZSH/oh-my-zsh.sh
 [[ -f $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]] && source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Enable asdf
-. $(brew --prefix asdf)/libexec/asdf.sh
+source $(brew --prefix asdf)/libexec/asdf.sh
 
 # functions
 [[ -f ~/.functions ]] && source ~/.functions
