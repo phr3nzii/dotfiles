@@ -80,10 +80,10 @@ source $(brew --prefix)/opt/powerlevel10k/share/powerlevel10k/powerlevel10k.zsh-
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   autojump
-  aws
+  # aws
+  brew
   colored-man-pages
   git
-  httpie
   safe-paste
 )
 
