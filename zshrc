@@ -16,7 +16,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # ZSH_THEME="robbyrussell"
-source $(brew --prefix)/opt/powerlevel10k/share/powerlevel10k/powerlevel10k.zsh-theme
+source "$(brew --prefix)/opt/powerlevel10k/share/powerlevel10k/powerlevel10k.zsh-theme"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -133,6 +133,9 @@ source $ZSH/oh-my-zsh.sh
 
 # local
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
+
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
 
 # Force no pager with AWS CLI
 export AWS_PAGER=""
