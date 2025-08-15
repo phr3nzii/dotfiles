@@ -3,6 +3,7 @@ tap "romkatv/powerlevel10k"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 brew "romkatv/powerlevel10k/powerlevel10k"
+cask "font-meslo-for-powerlevel10k"
 
 # Tooling
 brew "asdf"
