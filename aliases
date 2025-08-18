@@ -1,2 +1,8 @@
-alias m="make"
+# shellcheck shell=bash
+
 alias k="kubectl"
+alias m="make"
+alias ma="make apply"
+
+# AWS
+alias awsgci="aws sts get-caller-identity"
