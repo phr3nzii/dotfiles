@@ -22,9 +22,8 @@ brew "watch"
 brew "yq"
 
 # AWS
-brew "aws-iam-authenticator"
 brew "awscli"
-cask "aws-vault"
+brew "aws-vault"
 brew "ec2-instance-selector"
 cask "session-manager-plugin"
 
